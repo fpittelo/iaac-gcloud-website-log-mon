@@ -1,7 +1,7 @@
 # Specify cloud provider
 provider "google" {
-    credentials = "iaac-gcloud-website-log-mon-6e14442ea636.json"
-    project = "iaac-gcloud-website-log-mon"
-    region = "europe-west6"
-    zone = "europe-west6-b"
+    credentials = var.gcp_auth_file
+    project = var.gcp_project
+    region = var.gcp_region
+    zone = var.gcp_zone_a
 }

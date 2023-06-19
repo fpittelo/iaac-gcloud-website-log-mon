@@ -3,6 +3,16 @@ variable "gcp_region" {
   type        = string
   description = "europe-west6"
 }
+# define GCP Zone A
+variable "gcp_zone_a" {
+  type        = string
+  description = "europe-west6-a"
+}
+# define GCP Zone B
+variable "gcp_zone_b" {
+  type        = string
+  description = "europe-west6-b"
+}
 # define GCP project name
 variable "gcp_project" {
   type        = string
