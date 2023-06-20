@@ -31,3 +31,13 @@ variable "storage-class" {
   type        = string
   description = "The storage class of the Storage Bucket to create"
 }
+
+variable "owner" {
+  type = string
+  default = "Fred"
+}
+
+variable "department" {
+  type = string
+  default = "IT"
+}
